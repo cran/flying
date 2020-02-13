@@ -1,7 +1,7 @@
 Package: flying
 Type: Package
 Title: Simulation of Bird Flight Range
-Version: 0.1.1
+Version: 0.1.3
 Authors@R: c(person(family = "Masinde", given = "Brian", role = c("aut", "cre"),
            email= "masindeb@live.com"), person(family = "Bartoszek", given = "Krzysztof",
            role = c("ctb", "ths"), email= "krzbar@protonmail.ch"))
@@ -15,20 +15,22 @@ Description: Functions for range estimation in birds based on Pennycuick (2008)
 License: Apache License
 Encoding: UTF-8
 LazyData: true
-Imports: utils, Rcpp (>= 1.0.2), knitr, rmarkdown, kableExtra
+Imports: utils, Rcpp (>= 1.0.2), knitr, kableExtra, rmarkdown
 Suggests: testthat, covr
 RoxygenNote: 7.0.0
 Depends: R (>= 2.10)
 VignetteBuilder: knitr
 Collate: 'RcppExports.R' 'birds_documentation.R'
-        'constant_muscle_mass.R' 'control.R' 'method_2.R' 'method_1.R'
-        'input_match.R' 'lookup_table2.R' 'misc_functions.R'
-        'flight_simulation.R' 'flying.R' 'migrate.R' 'zzz.R'
+        'constant_muscle_mass.R' 'constant_specific_power.R'
+        'constant_specific_work.R' 'control.R' 'method_2.R'
+        'method_1.R' 'input_match.R' 'lookup_table2.R'
+        'misc_functions.R' 'flight_simulation.R' 'flying.R' 'migrate.R'
+        'zzz.R'
 LinkingTo: Rcpp
 NeedsCompilation: yes
-Packaged: 2020-01-12 14:49:07 UTC; masinde
+Packaged: 2020-02-13 07:58:14 UTC; masinde
 Author: Brian Masinde [aut, cre],
   Krzysztof Bartoszek [ctb, ths]
 Maintainer: Brian Masinde <masindeb@live.com>
 Repository: CRAN
-Date/Publication: 2020-01-23 16:00:05 UTC
+Date/Publication: 2020-02-13 15:50:08 UTC
